@@ -2,6 +2,9 @@
 
 A simple toy for exploring musical scales on a piano. All in vanilla HTML/CSS/JS.
 
+See it running at <a href="https://chichilatte.github.io/scalotron" target="demo">https://chichilatte.github.io/scalotron</a>
+
+
 
 ## Features
 
