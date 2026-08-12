@@ -1,0 +1,326 @@
+{
+  "name": "Misirlou",
+  "scales": [
+    "byzantine"
+  ],
+  "key": "E",
+  "baseOctave": 4,
+  "loopGap": 1.5,
+  "notes": [
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 0.0
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 0.125
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 0.25
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 0.375
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 0.5
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 0.75
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 1.0
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 1.125
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 1.25
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 1.375
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 1.5
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 1.625
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 1.75
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 2.0
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 2.25
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 2.375
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 2.5
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 2.625
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 2.75
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 2.875
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 3.0
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 3.25
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 3.5
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 3.625
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 3.75
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 3.875
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 4.0
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 4.125
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 4.25
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 4.375
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 4.5
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 4.625
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 4.75
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 4.875
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 5.0
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 5.25
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 5.5
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 5.625
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 5.75
+    },
+    {
+      "pitch": "D#",
+      "oct": 1,
+      "time": 5.875
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 6.0
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 6.125
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 6.25
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 6.375
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 6.5
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 6.625
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 6.75
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 6.875
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 7.0
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 7.125
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 7.25
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 7.375
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 7.5
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 7.625
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 7.75
+    },
+    {
+      "pitch": "G#",
+      "oct": 0,
+      "time": 7.875
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 8.0
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 8.125
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.25
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.375
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.5
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.625
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.75
+    }
+  ]
+}

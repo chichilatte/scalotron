@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCALOTRON 5000</title>
+    <meta name="description" content="What the hell is a musical scale anyway? Find out interactively with Scalotron 5000.">
+    <link rel="icon" href="/assets/piano-icon.svg">
+    <script src="libs/chart.umd.js"></script>
+    <script src="libs/popper.min.js"></script>
+    <script src="libs/tippy.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1><img src="assets/piano-icon.svg" alt="" class="h1-icon"> SCALOTRON<span>5000</span></h1>
+    
+    <div class="controls">
+        <!-- Row 1: Scale buttons -->
+        <div class="ctrl-row">
+            <div class="control-group">
+                <label>Scale <button class="help-btn" title="A scale is a just an arbitrary collection of notes progressing over 12 keys on a piano (an octave), skipping some of them. <br>E.g. the Major scale starting at C is all white keys, no black ones (aka C Major).">?</button></label>
+                <div class="button-row">
+                    <button class="ctrl-btn active" data-scale="chromatic">Chromatic</button>
+                    <button class="ctrl-btn" data-scale="major">Major</button>
+                    <button class="ctrl-btn" data-scale="minor">Natural Minor</button>
+                    <button class="ctrl-btn" data-scale="harmonicMinor">Harmonic Minor</button>
+                </div>
+                <div class="button-row">
+                    <button class="ctrl-btn" data-scale="byzantine">Byzantine</button>
+                    <button class="ctrl-btn" data-scale="majorPentatonic">Major Pentatonic</button>
+                    <button class="ctrl-btn" data-scale="minorPentatonic">Minor Pentatonic</button>
+                </div>
+            </div>
+            <div class="control-group">
+                <label>Key<button class="help-btn" title="A scale starts at a particluar note in an octave. That's the key.">?</button></label>
+                <div class="button-row" id="rootStepper">
+                    <button class="ctrl-btn" id="rootLeft">&larr;</button>
+                    <span id="rootLabel">A</span>
+                    <button class="ctrl-btn" id="rootRight">&rarr;</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Pattern <button class="help-btn" title="Patterns are note sequences based on the current scale and key.<br><ul><li><strong>Scale</strong> — walks up and down the scale one step (aka degree) at a time</li><li><strong>Arpeggio</strong> — odd steps only (1st, 3rd, 5th…) over the length of the scale, up and back</li><li><strong>Broken 3rds</strong> — rolling pairs: each note paired with the note two steps ahead, sliding up and back, e.g. 1-3, 2-4, 3-5…</li></ul>">?</button></label>
+                <div id="patternButtons"></div>
+            </div>
+            <div class="control-group">
+                <label>Tune <button class="help-btn" title="Some tunes, or snippets of tunes, or whole genres of music, try to stick to a certain scale. <br>A tune normally has a key, e.g. Happy Birthday is in G Major. That is, the Major scale, with the scale starting at the G piano key.">?</button></label>
+                <div id="tuneButtons"></div>
+            </div>
+
+        </div>
+
+        <!-- Row 2: Range | Frequency | Instrument | Patterns | Tunes -->
+        <div class="ctrl-row">
+
+            <div class="control-group">
+                <label>Instrument</label>
+                <div class="button-row">
+                    <button class="ctrl-btn-sm active" data-inst="piano">Piano</button>
+                    <button class="ctrl-btn-sm" data-inst="organ">Organ</button>
+                    <button class="ctrl-btn-sm" data-inst="strings">Strings</button>
+                </div>
+                <div class="button-row">
+                    <button class="ctrl-btn-sm" data-inst="pluck">Pluck</button>
+                    <button class="ctrl-btn-sm" data-inst="bell">Bell</button>
+                    <button class="ctrl-btn-sm" data-inst="brass">Brass</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Range</label>
+                <div class="button-row">
+                    <button class="ctrl-btn" data-range="1,40">Low</button>
+                    <button class="ctrl-btn active" data-range="28,52">Middle</button>
+                    <button class="ctrl-btn" data-range="52,88">Treble</button>
+                    <button class="ctrl-btn" data-range="1,88">Full</button>
+                </div>
+            </div>
+            <div class="control-group">
+                <label>Frequency<button class="help-btn" title="The dotty blue line below shows the frequency of each note. You can change the vertical axis... <ul><li>Linear – the raw frequency of a note in physical reality. If you look inside a piano you'll see the same curve.</li><li>Logarithmic – the pitch of a note as we perceive it.</li></ul>">?</button></label>
+                <div class="button-row">
+                    <button class="ctrl-btn" data-yaxis="linear">Linear</button>
+                    <button class="ctrl-btn active" data-yaxis="logarithmic">Log</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="frequencyChart"></canvas>
+    </div>
+    
+
+    <div class="credits">
+        <a href="#" id="creditsLink">CREDITS</a>
+        <div id="creditsContent">
+            <div class="credits-copy">© <a href="https://github.com/chichilatte" target="github">Chichi Latté</a> 2026<br><br></div>
+            <div class="credits-thanks">Thanks to...</div>
+            <div class="credits-list">
+                <ul>
+                    <li><a href="https://thenounproject.com/creator/eskakkak3/" target="_blank">Eskak</a> for the piano icon</li>
+                    <li><a href="https://www.chartjs.org/" target="_blank">Chart.js</a></li>
+                    <li><a href="https://atomiks.github.io/tippyjs/" target="_blank">Tippy.js</a></li>
+                    <li>DeepSeek</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>

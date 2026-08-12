@@ -1,0 +1,186 @@
+{
+  "name": "Amazing Grace",
+  "scales": [
+    "majorPentatonic"
+  ],
+  "key": "G",
+  "baseOctave": 4,
+  "loopGap": 3.0,
+  "notes": [
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 0.8
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 1.6
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 3.2
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 3.6
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 4.0
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 5.6
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 6.4
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.0
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 8.8
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 10.4
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 11.2
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 12.8
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 13.2
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 13.6
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 15.2
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 16.0
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 17.6
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 18.4
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 19.6
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 20.0
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 20.4
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 20.8
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 22.4
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 23.2
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 24.4
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 24.8
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 25.2
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 25.6
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 27.2
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 28.0
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 29.6
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 30.0
+    },
+    {
+      "pitch": "B",
+      "oct": 0,
+      "time": 30.4
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 32.0
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 32.8
+    }
+  ]
+}

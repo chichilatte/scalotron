@@ -1,0 +1,141 @@
+{
+  "name": "Blues Lick",
+  "scales": [
+    "minorPentatonic"
+  ],
+  "key": "A",
+  "baseOctave": 4,
+  "loopGap": 2.0,
+  "notes": [
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 0.0
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 0.18
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 0.53
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 0.71
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 1.06
+    },
+    {
+      "pitch": "G",
+      "oct": 1,
+      "time": 1.24
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 1.59
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 1.77
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 2.12
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 2.3
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 2.65
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 2.83
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 3.18
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 3.36
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 3.71
+    },
+    {
+      "pitch": "G",
+      "oct": 1,
+      "time": 3.89
+    },
+    {
+      "pitch": "A",
+      "oct": 1,
+      "time": 4.24
+    },
+    {
+      "pitch": "A",
+      "oct": 1,
+      "time": 4.42
+    },
+    {
+      "pitch": "G",
+      "oct": 1,
+      "time": 4.77
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 4.95
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 5.3
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 5.48
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 5.83
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 6.01
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 6.71
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 6.89
+    }
+  ]
+}

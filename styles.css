@@ -1,0 +1,300 @@
+body {
+    font-family: sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    padding-left: 1em;
+    list-style: disc;
+}
+
+a { color: #fff; text-decoration: none;}
+a:hover { color: #fff;}
+a:visited { color: #cbdafd;}
+
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    background: #2d2d2d;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    box-sizing: border-box;
+}
+h1 {
+    margin-top: 0;
+    text-align: left;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color:#9a9a9a;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+.h1-icon {
+    height: 1.5em;
+    vertical-align: text-bottom;
+    filter: invert(1);
+    position: relative;
+    top: 2px;
+    width: 46px;
+}
+h1 > span {
+    display:inline-block;
+    margin-left:4px;
+}
+
+.controls {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+}
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+}
+label {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #aaa;
+    font-weight: bold;
+}
+select {
+    background: #444;
+    color: white;
+    border: 1px solid #555;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+.button-row {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ctrl-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.ctrl-btn {
+    background: #444;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    outline: none;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+}
+.ctrl-btn:hover {
+    background: #555;
+    color: #ddd;
+}
+.ctrl-btn.active {
+    background: #00adb5;
+    color: #111;
+}
+.ctrl-btn-sm {
+    background: #444;
+    color: #aaa;
+    border: 1px solid #555;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    outline: none;
+    white-space: nowrap;
+    transition: background 0.15s, color 0.15s;
+}
+#rootStepper.button-row {
+    gap: 0px;
+}
+span#rootLabel {
+    font-weight:bold;
+    min-width:2em;
+    text-align:center;
+    padding: 2px 0px;
+}
+
+.ctrl-btn-sm:hover {
+    background: #555;
+    color: #ddd;
+}
+.ctrl-btn-sm.active {
+    background: #00adb5;
+    color: #111;
+}
+#patternButtons, #tuneButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+}
+.melody-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #666;
+    letter-spacing: 1px;
+    margin-right: 8px;
+    align-self: center;
+}
+.chart-container {
+    position: relative;
+    height: 450px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.help-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid #555;
+    background: transparent;
+    color: #777;
+    font-size: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    margin-left: 3px;
+    position: relative;
+    top: -2px;
+}
+.help-btn:hover {
+    border-color: #aaa;
+    color: #ccc;
+}
+.credits {
+    text-align: right;
+    top: 10px;
+    position:relative;
+}
+.credits a {
+    color: #757575;
+    font-size: 0.6rem;
+}
+.credits a:hover {
+    color: #eee;
+}
+
+#creditsContent {
+    display: none;
+}
+
+
+
+.tippy-box[data-theme~='help'] {
+    background: #333;
+    color: #eee;
+    /* border: 1px solid #555; */
+    border-radius: 0.3em;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    max-width: 280px;
+    text-transform: none;
+}
+.tippy-box[data-theme~='help'] .tippy-content {
+    padding: 10px 14px;
+}
+.tippy-box[data-theme~='help'] .tippy-arrow {
+    color: #333;
+}
+.tippy-box[data-theme~='credits'] {
+    background: #333;
+    color: #d7d7d7;
+    /* border: 1px solid #555; */
+    border-radius: 0.3em;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    max-width: 280px;
+}
+.tippy-box[data-theme~='credits'] .tippy-content {
+    padding: 10px 14px;
+}
+
+
+.tippy-box[data-theme~='credits'] .tippy-arrow {
+    color: #333;
+}
+
+/* ── Core Tippy arrow CSS (not bundled in UMD JS) ─────────────── */
+.tippy-arrow {
+    width: 16px;
+    height: 16px;
+}
+.tippy-arrow::before {
+    content: "";
+    position: absolute;
+    border-color: transparent;
+    border-style: solid;
+}
+.tippy-box[data-placement^='top'] > .tippy-arrow {
+    bottom: 0;
+}
+.tippy-box[data-placement^='top'] > .tippy-arrow::before {
+    bottom: -7px;
+    left: 0;
+    border-width: 8px 8px 0;
+    border-top-color: initial;
+    transform-origin: center top;
+}
+.tippy-box[data-placement^='bottom'] > .tippy-arrow {
+    top: 0;
+}
+.tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
+    top: -7px;
+    left: 0;
+    border-width: 0 8px 8px;
+    border-bottom-color: initial;
+    transform-origin: center bottom;
+}
+.tippy-box[data-placement^='left'] > .tippy-arrow {
+    right: 0;
+}
+.tippy-box[data-placement^='left'] > .tippy-arrow::before {
+    border-width: 8px 0 8px 8px;
+    border-left-color: initial;
+    right: -7px;
+    transform-origin: center left;
+}
+.tippy-box[data-placement^='right'] > .tippy-arrow {
+    left: 0;
+}
+.tippy-box[data-placement^='right'] > .tippy-arrow::before {
+    left: -7px;
+    border-width: 8px 8px 8px 0;
+    border-right-color: initial;
+    transform-origin: center right;
+}
+

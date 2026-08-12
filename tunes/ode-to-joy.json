@@ -1,0 +1,161 @@
+{
+  "name": "Ode to Joy",
+  "scales": [
+    "major"
+  ],
+  "baseOctave": 4,
+  "loopGap": 1.5,
+  "notes": [
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 0.0
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 0.4
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 0.8
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 1.2
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 1.6
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 2.0
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 2.4
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 2.8
+    },
+    {
+      "pitch": "C",
+      "oct": 0,
+      "time": 3.2
+    },
+    {
+      "pitch": "C",
+      "oct": 0,
+      "time": 3.6
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 4.0
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 4.4
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 4.8
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 5.6
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 5.8
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 6.4
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 6.8
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 7.2
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 7.6
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 8.0
+    },
+    {
+      "pitch": "F",
+      "oct": 0,
+      "time": 8.4
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 8.8
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 9.2
+    },
+    {
+      "pitch": "C",
+      "oct": 0,
+      "time": 9.6
+    },
+    {
+      "pitch": "C",
+      "oct": 0,
+      "time": 10.0
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 10.4
+    },
+    {
+      "pitch": "E",
+      "oct": 0,
+      "time": 10.8
+    },
+    {
+      "pitch": "D",
+      "oct": 0,
+      "time": 11.2
+    },
+    {
+      "pitch": "C",
+      "oct": 0,
+      "time": 12.0
+    },
+    {
+      "pitch": "C",
+      "oct": 0,
+      "time": 12.2
+    }
+  ],
+  "key": "C"
+}

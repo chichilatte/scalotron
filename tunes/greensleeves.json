@@ -1,0 +1,156 @@
+{
+  "name": "Greensleeves",
+  "scales": [
+    "minor"
+  ],
+  "baseOctave": 4,
+  "loopGap": 2.0,
+  "notes": [
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 0.0
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 0.6
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 0.8
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 1.4
+    },
+    {
+      "pitch": "G",
+      "oct": 1,
+      "time": 1.6
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 2.2
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 2.4
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 3.0
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 3.2
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 3.8
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 4.0
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 4.6
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 4.8
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 5.4
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 5.8
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 6.6
+    },
+    {
+      "pitch": "G",
+      "oct": 0,
+      "time": 7.2
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 7.4
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 8.0
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 8.2
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 8.8
+    },
+    {
+      "pitch": "G",
+      "oct": 1,
+      "time": 9.0
+    },
+    {
+      "pitch": "F",
+      "oct": 1,
+      "time": 9.6
+    },
+    {
+      "pitch": "E",
+      "oct": 1,
+      "time": 9.8
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 10.4
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 10.6
+    },
+    {
+      "pitch": "D",
+      "oct": 1,
+      "time": 11.0
+    },
+    {
+      "pitch": "C",
+      "oct": 1,
+      "time": 11.8
+    },
+    {
+      "pitch": "A",
+      "oct": 0,
+      "time": 12.8
+    }
+  ],
+  "key": "A"
+}
