@@ -6,7 +6,7 @@ A simple toy for exploring musical scales on a piano. All in vanilla HTML/CSS/JS
 Give it a whirl at <a href="https://chichilatte.github.io/scalotron" target="demo">https://chichilatte.github.io/scalotron</a>
 
 
-![Screengrab of Scalotron 5000](https://raw.githubusercontent.com/chichilatte/scalotron/refs/heads/main/assets/screengrab1.png)
+![Screengrab of Scalotron 5000](https://github.com/chichilatte/scalotron/blob/e1f427546493d52cfd20e46a35f71e3bd5d3b6d9/assets/screengrab1.png)
 
 
 ## Features
