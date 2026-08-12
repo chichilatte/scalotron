@@ -5,7 +5,7 @@
 
 import { constants, displayName, config, isWhitePitch } from './config.js';
 import { playedFreqs, playFrequency, getKeyFreqsFromRange, setCurrentKeyFreqs } from './audio.js';
-import { activeMelodyId, stopMelody, startMelody, rebuildMelodyButtons } from './melodies.js';
+import { activeMelodyId, stopMelody, startMelody, rebuildMelodyButtons } from './tunes.js';
 import { currentRootNote } from './app.js';
 
 export let chartInstance = null;

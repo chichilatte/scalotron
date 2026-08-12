@@ -5,7 +5,7 @@
 
 import { constants, displayName } from './config.js';
 import { updateChart } from './chart.js';
-import { loadTunes, rebuildMelodyButtons } from './melodies.js';
+import { loadTunes, rebuildMelodyButtons } from './tunes.js';
 
 // ── Tooltips on help buttons ───────────────────────────────────
 document.querySelectorAll('.help-btn').forEach(function(btn) {

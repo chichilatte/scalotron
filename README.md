@@ -26,7 +26,7 @@ scalotron/
 ├── js/
 │   ├── config.js       # Note names, visual settings, scale definitions
 │   ├── audio.js        # Web Audio engine, 6 instrument synths, keyboard input
-│   ├── melodies.js     # Patterns, tunes, melody player, button builder
+│   ├── tunes.js        # Patterns, tunes, melody player, button builder
 │   ├── chart.js        # Chart creation, piano plugin, click handling
 │   └── app.js          # Root key stepper, button bindings, initialisation
 ├── tunes/
